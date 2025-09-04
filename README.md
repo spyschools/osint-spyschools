@@ -1,5 +1,6 @@
-# osint-spyschools
-Osint Spyschools untuk Linux sebuah Tools memakai sumber publik dan non-sensitif (WHOIS/RDAP, DNS, crt.sh, Wayback, header HTTP, info TLS, metadata file)
+# osint spyschools
+
+Tools Open Source (WHOIS/RDAP, DNS, crt.sh, Wayback, header HTTP, info TLS, Foto, metadata file)
 
 $ git clone https://github.com/spyschools/osint-spyschools.git
 
@@ -20,10 +21,10 @@ $ ./osint_toolkit.sh file ./foto.jpg
 *menu untuk mode interaktif.
 $ ./osint_toolkit.sh
 
-Tool ini bisa menghasilkan laporan dalam TXT atau Markdown (.md).
+*Menghasilkan laporan dalam TXT atau Markdown (.md).
 Cukup jalankan dengan opsi --md di depan, misalnya:
 
 $ ./osint_toolkit.sh --md domain example.com
 
-Hasilnya otomatis tersimpan ke file seperti:
+*Hasilnya otomatis tersimpan ke file seperti:
 osint_report_20250904_123456.md
