@@ -18,3 +18,11 @@ $ ./osint-toolkit.sh file ./foto.jpg
 
 *menu untuk mode interaktif.
 $ ./osint-toolkit.sh 
+
+Tool ini bisa menghasilkan laporan dalam TXT atau Markdown (.md).
+Cukup jalankan dengan opsi --md di depan, misalnya:
+
+$ ./osint-toolkit.sh --md domain example.com
+
+Hasilnya otomatis tersimpan ke file seperti:
+osint_report_20250904_123456.md
