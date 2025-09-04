@@ -9,21 +9,21 @@ $ chmod +x osint_toolkit.sh
 
 Contoh:
 
-$ ./osint-toolkit.sh domain example.com
+$ ./osint_toolkit.sh domain example.com
 
-$ ./osint-toolkit.sh ip 1.1.1.1
+$ ./osint_toolkit.sh ip 1.1.1.1
 
-$ ./osint-toolkit.sh http https://example.com
+$ ./osint_toolkit.sh http https://example.com
 
-$ ./osint-toolkit.sh file ./foto.jpg
+$ ./osint_toolkit.sh file ./foto.jpg
 
 *menu untuk mode interaktif.
-$ ./osint-toolkit.sh 
+$ ./osint_toolkit.sh
 
 Tool ini bisa menghasilkan laporan dalam TXT atau Markdown (.md).
 Cukup jalankan dengan opsi --md di depan, misalnya:
 
-$ ./osint-toolkit.sh --md domain example.com
+$ ./osint_toolkit.sh --md domain example.com
 
 Hasilnya otomatis tersimpan ke file seperti:
 osint_report_20250904_123456.md
