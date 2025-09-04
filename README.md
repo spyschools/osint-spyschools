@@ -5,9 +5,10 @@ $ git clone https://github.com/spyschools/osint-spyschools.git
 
 $ cd osint-spyschools
 
-$ chmod +x osint-toolkit.sh
+$ chmod +x osint_toolkit.sh
 
 Contoh:
+
 $ ./osint-toolkit.sh domain example.com
 
 $ ./osint-toolkit.sh ip 1.1.1.1
