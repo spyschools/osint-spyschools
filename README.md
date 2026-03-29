@@ -28,3 +28,18 @@ $ ./osint_toolkit.sh --md domain example.com
 
 *Hasilnya otomatis tersimpan ke file seperti:
 osint_report_20250904_123456.md
+
+*VERSI V2 2026
+$ ./osint_toolkit_v2.sh domain example.com
+
+$ ./osint_toolkit_v2.sh ip 1.1.1.1
+
+$ ./osint_toolkit_v2.sh http https://example.com
+
+$ ./osint_toolkit_v2.sh file ./foto.jpg
+
+*menu untuk mode interaktif.
+$ ./osint_toolkit_v2.sh 
+
+*Menghasilkan laporan dalam TXT atau Markdown (.md).
+Cukup jalankan dengan opsi --md di depan, misalnya:
