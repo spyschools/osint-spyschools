@@ -30,6 +30,7 @@ $ ./osint_toolkit.sh --md domain example.com
 osint_report_20250904_123456.md
 
 *VERSI V2 2026
+
 $ ./osint_toolkit_v2.sh domain example.com
 
 $ ./osint_toolkit_v2.sh ip 1.1.1.1
