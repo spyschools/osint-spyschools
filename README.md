@@ -39,7 +39,7 @@
 ```bash
 $ git clone https://github.com/spyschools/osint-spyschools.git
 $ cd osint-spyschools
-$ chmod +x osint_toolkit.sh
+$ chmod +x *
 ```
 
 ---
